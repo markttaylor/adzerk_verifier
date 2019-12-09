@@ -1,0 +1,97 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "IsActive": {
+      "type": "boolean"
+    },
+    "DontAffectParentFreqCap": {
+      "type": "null"
+    },
+    "Flights": {
+      "type": "array",
+      "items": {}
+    },
+    "DailyCapAmount": {
+      "type": "null"
+    },
+    "FreqCapType": {
+      "type": "integer"
+    },
+    "EndDate": {
+      "type": "null"
+    },
+    "CapType": {
+      "type": "null"
+    },
+    "IsFreqCap": {
+      "type": "boolean"
+    },
+    "IsDeleted": {
+      "type": "boolean"
+    },
+    "EndDateISO": {
+      "type": "null"
+    },
+    "Price": {
+      "type": "integer"
+    },
+    "IsArchived": {
+      "type": "boolean"
+    },
+    "LifetimeCapAmount": {
+      "type": "null"
+    },
+    "FreqCapDuration": {
+      "type": "null"
+    },
+    "FreqCap": {
+      "type": "null"
+    },
+    "SalespersonId": {
+      "type": "null"
+    },
+    "AdvertiserId": {
+      "type": "integer"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Id": {
+      "type": "integer"
+    },
+    "StartDate": {
+      "type": "string"
+    },
+    "CustomFieldsJson": {
+      "type": "null"
+    },
+    "StartDateISO": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "IsActive",
+    "DontAffectParentFreqCap",
+    "Flights",
+    "DailyCapAmount",
+    "FreqCapType",
+    "EndDate",
+    "CapType",
+    "IsFreqCap",
+    "IsDeleted",
+    "EndDateISO",
+    "Price",
+    "IsArchived",
+    "LifetimeCapAmount",
+    "FreqCapDuration",
+    "FreqCap",
+    "SalespersonId",
+    "AdvertiserId",
+    "Name",
+    "Id",
+    "StartDate",
+    "CustomFieldsJson",
+    "StartDateISO"
+  ]
+}

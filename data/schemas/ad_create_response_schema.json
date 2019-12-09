@@ -1,0 +1,216 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "IsActive": {
+      "type": "boolean"
+    },
+    "DontAffectParentFreqCap": {
+      "type": "boolean"
+    },
+    "Creative": {
+      "type": "object",
+      "properties": {
+        "IsActive": {
+          "type": "boolean"
+        },
+        "ImageName": {
+          "type": "string"
+        },
+        "SaveEmptyCreative": {
+          "type": "null"
+        },
+        "Body": {
+          "type": "string"
+        },
+        "IsNetworkAd": {
+          "type": "null"
+        },
+        "Alt": {
+          "type": "null"
+        },
+        "Title": {
+          "type": "string"
+        },
+        "IsDeleted": {
+          "type": "boolean"
+        },
+        "IsSync": {
+          "type": "null"
+        },
+        "Url": {
+          "type": "string"
+        },
+        "IsIdOnly": {
+          "type": "boolean"
+        },
+        "IsNoTrack": {
+          "type": "null"
+        },
+        "TemplateValues": {
+          "type": "null"
+        },
+        "TemplateId": {
+          "type": "null"
+        },
+        "ImageLink": {
+          "type": "string"
+        },
+        "ScriptBody": {
+          "type": "string"
+        },
+        "AdvertiserId": {
+          "type": "integer"
+        },
+        "Metadata": {
+          "type": "null"
+        },
+        "AdTypeId": {
+          "type": "integer"
+        },
+        "IsHTMLJS": {
+          "type": "boolean"
+        },
+        "Id": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "IsActive",
+        "ImageName",
+        "SaveEmptyCreative",
+        "Body",
+        "IsNetworkAd",
+        "Alt",
+        "Title",
+        "IsDeleted",
+        "IsSync",
+        "Url",
+        "IsIdOnly",
+        "IsNoTrack",
+        "TemplateValues",
+        "TemplateId",
+        "ImageLink",
+        "ScriptBody",
+        "AdvertiserId",
+        "Metadata",
+        "AdTypeId",
+        "IsHTMLJS",
+        "Id"
+      ]
+    },
+    "FreqCapType": {
+      "type": "null"
+    },
+    "EndDate": {
+      "type": "null"
+    },
+    "Iframe": {
+      "type": "null"
+    },
+    "ZoneId": {
+      "type": "null"
+    },
+    "PublisherAccountId": {
+      "type": "integer"
+    },
+    "DistributionType": {
+      "type": "integer"
+    },
+    "IsDeleted": {
+      "type": "boolean"
+    },
+    "CustomTargeting": {
+      "type": "string"
+    },
+    "EndDateISO": {
+      "type": "string"
+    },
+    "RtbCustomFields": {
+      "type": "null"
+    },
+    "Impressions": {
+      "type": "integer"
+    },
+    "GoalType": {
+      "type": "integer"
+    },
+    "Goal": {
+      "type": "integer"
+    },
+    "FreqCapDuration": {
+      "type": "null"
+    },
+    "Percentage": {
+      "type": "integer"
+    },
+    "FreqCap": {
+      "type": "null"
+    },
+    "IsStartEndDateOverride": {
+      "type": "boolean"
+    },
+    "CustomRelevancyScore": {
+      "type": "null"
+    },
+    "FlightId": {
+      "type": "integer"
+    },
+    "ActiveKeywords": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "SiteId": {
+      "type": "null"
+    },
+    "CampaignId": {
+      "type": "integer"
+    },
+    "Id": {
+      "type": "integer"
+    },
+    "IsGoalOverride": {
+      "type": "boolean"
+    },
+    "StartDateISO": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "IsActive",
+    "DontAffectParentFreqCap",
+    "Creative",
+    "FreqCapType",
+    "EndDate",
+    "Iframe",
+    "ZoneId",
+    "PublisherAccountId",
+    "DistributionType",
+    "IsDeleted",
+    "CustomTargeting",
+    "EndDateISO",
+    "RtbCustomFields",
+    "Impressions",
+    "GoalType",
+    "Goal",
+    "FreqCapDuration",
+    "Percentage",
+    "FreqCap",
+    "IsStartEndDateOverride",
+    "CustomRelevancyScore",
+    "FlightId",
+    "ActiveKeywords",
+    "SiteId",
+    "CampaignId",
+    "Id",
+    "IsGoalOverride",
+    "StartDateISO"
+  ]
+}

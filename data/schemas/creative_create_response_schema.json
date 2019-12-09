@@ -1,0 +1,76 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Id": {
+      "type": "integer"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "ImageName": {
+      "type": "string"
+    },
+    "Url": {
+      "type": "string"
+    },
+    "Body": {
+      "type": "string"
+    },
+    "AdvertiserId": {
+      "type": "integer"
+    },
+    "IsActive": {
+      "type": "boolean"
+    },
+    "AdTypeId": {
+      "type": "integer"
+    },
+    "Alt": {
+      "type": "string"
+    },
+    "IsDeleted": {
+      "type": "boolean"
+    },
+    "IsSync": {
+      "type": "boolean"
+    },
+    "IsHTMLJS": {
+      "type": "boolean"
+    },
+    "ScriptBody": {
+      "type": "string"
+    },
+    "Metadata": {
+      "type": "string"
+    },
+    "ImageLink": {
+      "type": "string"
+    },
+    "IsNoTrack": {
+      "type": "boolean"
+    },
+    "IsNetworkAd": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "Id",
+    "Title",
+    "ImageName",
+    "Url",
+    "Body",
+    "AdvertiserId",
+    "IsActive",
+    "AdTypeId",
+    "Alt",
+    "IsDeleted",
+    "IsSync",
+    "IsHTMLJS",
+    "ScriptBody",
+    "Metadata",
+    "ImageLink",
+    "IsNoTrack",
+    "IsNetworkAd"
+  ]
+}

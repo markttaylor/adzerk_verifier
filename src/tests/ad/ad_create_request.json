@@ -1,0 +1,7 @@
+{
+    "CampaignId":12345,
+    "Creative":{"Id":12345},
+    "FlightId":12345,
+    "DistributionType":1,
+    "IsActive":true
+}

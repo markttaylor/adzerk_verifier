@@ -32,7 +32,7 @@ const call_ad_api = async function (request_body) {
         });
 
         it('schema is valid', function () {
-            expect(tv4.validate(body, response_json_schema)).to.be.true;
+            expect(tv4.validate(body, response_json_schema).valid).to.be.true;
         });
 
         it("CampaignId, FlightId, IsActive and Creative.Id are correct", function () {

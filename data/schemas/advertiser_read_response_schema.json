@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "PartnerId": {
+      "type": "null"
+    },
+    "IsDeleted": {
+      "type": "boolean"
+    },
+    "Id": {
+      "type": "integer"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "FreqCap": {
+      "type": "integer"
+    },
+    "CapType": {
+      "type": "integer"
+    },
+    "IsActive": {
+      "type": "boolean"
+    },
+    "FreqCapType": {
+      "type": "integer"
+    },
+    "FreqCapDuration": {
+      "type": "integer"
+    },
+    "RtbCustomFields": {
+      "type": "null"
+    },
+    "PlacementLimit": {
+      "type": "integer"
+    },
+    "DailyCapAmount": {
+      "type": "integer"
+    },
+    "LifetimeCapAmount": {
+      "type": "integer"
+    },
+    "IsFreqCap": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "PartnerId",
+    "IsDeleted",
+    "Id",
+    "Title",
+    "FreqCap",
+    "CapType",
+    "IsActive",
+    "FreqCapType",
+    "FreqCapDuration",
+    "RtbCustomFields",
+    "PlacementLimit",
+    "DailyCapAmount",
+    "LifetimeCapAmount",
+    "IsFreqCap"
+  ]
+}

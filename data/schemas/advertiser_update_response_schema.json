@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Id": {
+      "type": "integer"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "IsActive": {
+      "type": "boolean"
+    },
+    "IsDeleted": {
+      "type": "boolean"
+    },
+    "PlacementLimit": {
+      "type": "integer"
+    },
+    "FreqCap": {
+      "type": "integer"
+    },
+    "FreqCapDuration": {
+      "type": "integer"
+    },
+    "FreqCapType": {
+      "type": "integer"
+    },
+    "CapType": {
+      "type": "integer"
+    },
+    "DailyCapAmount": {
+      "type": "integer"
+    },
+    "LifetimeCapAmount": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Id",
+    "Title",
+    "IsActive",
+    "IsDeleted",
+    "PlacementLimit",
+    "FreqCap",
+    "FreqCapDuration",
+    "FreqCapType",
+    "CapType",
+    "DailyCapAmount",
+    "LifetimeCapAmount"
+  ]
+}

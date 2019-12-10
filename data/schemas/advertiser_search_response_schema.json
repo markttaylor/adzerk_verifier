@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "PageNumber": {
+      "type": "integer"
+    },
+    "PageSize": {
+      "type": "integer"
+    },
+    "TotalPages": {
+      "type": "integer"
+    },
+    "TotalItems": {
+      "type": "integer"
+    },
+    "Itemsx": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "IsActive": {
+              "type": "boolean"
+            },
+            "DailyCapAmount": {
+              "type": "null"
+            },
+            "FreqCapType": {
+              "type": "integer"
+            },
+            "Title": {
+              "type": "string"
+            },
+            "CapType": {
+              "type": "null"
+            },
+            "IsFreqCap": {
+              "type": "null"
+            },
+            "IsDeleted": {
+              "type": "boolean"
+            },
+            "RtbCustomFields": {
+              "type": "null"
+            },
+            "LifetimeCapAmount": {
+              "type": "null"
+            },
+            "FreqCapDuration": {
+              "type": "null"
+            },
+            "PlacementLimit": {
+              "type": "null"
+            },
+            "FreqCap": {
+              "type": "null"
+            },
+            "PartnerId": {
+              "type": "null"
+            },
+            "Id": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "IsActive",
+            "DailyCapAmount",
+            "FreqCapType",
+            "Title",
+            "CapType",
+            "IsFreqCap",
+            "IsDeleted",
+            "RtbCustomFields",
+            "LifetimeCapAmount",
+            "FreqCapDuration",
+            "PlacementLimit",
+            "FreqCap",
+            "PartnerId",
+            "Id"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "PageNumber",
+    "PageSize",
+    "TotalPages",
+    "TotalItems",
+    "Items"
+  ]
+}
